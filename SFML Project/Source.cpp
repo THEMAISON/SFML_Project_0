@@ -23,13 +23,15 @@ int main()
             if (event.type == Event::Closed)
                 window.close();
 
+            cout << "Program running..." << endl;
+
             if (Keyboard::isKeyPressed(Keyboard::D)) {
-                pX += 5;
+                pX += 10;
                 Vector2f newPos = Vector2f(pX, pY);
                 rect.setPosition(newPos);
             }
             if (Keyboard::isKeyPressed(Keyboard::A)) {
-                pX -= 5;
+                pX -= 10;
                 Vector2f newPos = Vector2f(pX, pY);
                 rect.setPosition(newPos);
             }

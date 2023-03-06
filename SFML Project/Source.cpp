@@ -16,6 +16,11 @@ int main()
     pX = pY = 400;
     rect.setPosition(Vector2f(pX, pY));
 
+    cout << "MERGE BY the_maison" << endl;
+    cout << "MERGE BY the_maison" << endl;
+    cout << "MERGE BY the_maison" << endl;
+    cout << "MERGE BY the_maison" << endl;
+
     while (window.isOpen())
     {
         Event event;
@@ -23,8 +28,6 @@ int main()
         {
             if (event.type == Event::Closed)
                 window.close();
-
-            cout << "Program running..." << endl;
 
             if (Keyboard::isKeyPressed(Keyboard::D)) {
                 pX += 10;
@@ -52,6 +55,5 @@ int main()
         window.draw(rect);
         window.display();
     }
-
     return 0;
 }

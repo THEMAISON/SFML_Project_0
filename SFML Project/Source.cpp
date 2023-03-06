@@ -2,6 +2,7 @@
 #include <SFML/Graphics.hpp>
 
 // TEST
+// not a test MERGE
 
 using namespace std;
 using namespace sf;

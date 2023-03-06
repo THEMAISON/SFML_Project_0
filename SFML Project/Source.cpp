@@ -1,7 +1,7 @@
 #include <iostream>
 #include <SFML/Graphics.hpp>
 
-// гдеяэ ашк йняръ
+// TEST
 
 using namespace std;
 using namespace sf;

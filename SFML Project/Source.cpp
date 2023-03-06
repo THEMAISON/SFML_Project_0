@@ -1,6 +1,8 @@
 #include <iostream>
 #include <SFML/Graphics.hpp>
 
+// гдеяэ ашк йняръ
+
 using namespace std;
 using namespace sf;
 int main()
